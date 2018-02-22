@@ -23,7 +23,7 @@ Store.subscribe(() => {
 })
 
 
-console.log(Store.getState())
+//console.log(Store.getState())
 //Store.dispatch(addExpense({ description: 'Rent', amount: 100, createdAt: 1000 }))
 // Store.dispatch(addExpense({ description: 'WaterBill', amount: 100, createdAt: 1000 }))
 // Store.dispatch(addExpense({ description: 'GasBill', amount: 100, createdAt: 1000 }))
