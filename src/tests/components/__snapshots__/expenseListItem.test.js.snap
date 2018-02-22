@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test should render with an expense list item 1`] = `
+<div>
+  <NavLink
+    activeClassName="active"
+    ariaCurrent="true"
+    to="/edit/12223"
+  >
+    <h3>
+      this  is description
+    </h3>
+  </NavLink>
+  <p>
+    1212
+     -  
+  </p>
+</div>
+`;

@@ -1,0 +1,31 @@
+
+
+
+
+
+
+
+
+.header{
+    background:$off-black;
+    color: white;
+    margin-bottom:$xs-size;
+    padding: $space;
+ }
+ //block element modifier
+ .header__title{
+font-size: $m-size;
+margin:0;      
+
+ }
+ .header__subtitle{
+     color:$off-white;
+     font-size:$s-size;
+     font-weight: 500;
+     margin:0;
+    }
+    @media(min-width:$desktop-breakpoint){
+        .header{
+            margin-bottom: $l-size
+        }
+    }
